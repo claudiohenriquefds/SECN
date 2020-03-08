@@ -32,6 +32,4 @@ Foi implantando em uma plataforma em nuvem gratuita como um serviço que suporta
 2. No *script* se sorteio necessita alterar o número máximo de inscritos.
 
 # Site online
-
-[Link de acesso ao site]
-(https://secn.herokuapp.com)
+https://secn.herokuapp.com
