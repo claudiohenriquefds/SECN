@@ -1,35 +1,74 @@
+<p align="center" id="sobre"><img src="./public/img/logo.svg" width="100px"></p>
 
-# SECN
-SECN - Semana da Consciência Negra. Desenvolvimento de um sistema para cadastro de pessoas e sorteio dos mesmos.
+<h1 align="center">SECN - Semana da Consciência Negra</h1>
 
-# O projeto contém:
+<p align="justify">O SECN é um sistema de gerênciamento de inscritos e sorteio, utilizado na II Semana da Consciência Negra no Instituto Federal de Educação. Ciência e Tecnologia - Campus Guanambi</p>
 
-1. *Views* que sendo elas a principal com informações referentes ao evento.
-2. *Controllers* e *Models* referentes ao funcionamento e banco de dados.
-3. Rotas que condizem com os Gets e Posts.
+![LICENSE](https://img.shields.io/badge/MIT-ffc107?style=flat-square&label=License&Color=white&labelColor=0D1117)
+![REPO SIZE](https://img.shields.io/github/repo-size/claudiohenriquefds/secn?color=ffc107&label=Repo%20Size&style=flat-square&labelColor=0D1117)
+![LAST COMMIT](https://img.shields.io/github/last-commit/claudiohenriquefds/secn?color=ffc107&label=Last%20Commit&style=flat-square&labelColor=0D1117)
+![STATUS](https://img.shields.io/badge/Concluded-ffc107?style=flat-square&label=Status&Color=white&labelColor=0D1117)
 
-# Metodologia
+<p align="center">
+  <a href="#technologies">Tecnologias</a> •
+  <a href="#functionalities">Funcionalidades</a> •
+  <a href="#installation">Instalação</a> •
+  <a href="#authors">Autores e Contribuintes</a>
+</p>
 
-1. Foi se utilizado um *Framework* PHP denominado Laravel para criação e funcionamento do sistema.
-2. Foi se utilizado uma *lib* denominada *Sweet Alert* para notificações no site.
-3. Foi se utilizado *Bootstrap* para estilização do site no geral.
-4. Além das demais linguagens, HTML, JavaScript e CSS.
+----
+<h2 id="technologies">Tecnologias</h2>
+====
 
-# Implantação
+As seguintes ferramentas estão sendo utilizadas na construção do projeto:
 
-Foi implantando em uma plataforma em nuvem gratuita como um serviço que suporta várias linguagens de programação denominado *Heroku*.
+![HTML5](https://img.shields.io/badge/html%205-0D1117?style=for-the-badge&logo=html5&logoColor=white&labelColor=ffc107)
+![PHP](https://img.shields.io/badge/PHP%20-0D1117?style=for-the-badge&logo=php&logoColor=white&labelColor=ffc107)
+![CSS](https://img.shields.io/badge/css%203-0D1117?style=for-the-badge&logo=css3&logoColor=white&labelColor=ffc107)
+![BOOTSTRAP](https://img.shields.io/badge/bootstrap%20-0D1117?style=for-the-badge&logo=bootstrap&logoColor=white&labelColor=ffc107)
+![JAVASCRIPT](https://img.shields.io/badge/javascript%20-0D1117?style=for-the-badge&logo=javascript&logoColor=white&labelColor=ffc107)
 
-# O *FrontEnd* do site contem:
+----
+<h2 id="functionalities">Funcionalidades</h2>
+====
+* Cadastro de alunos.<br>
+* Cadastro de admins.<br>
+* Listagem de alunos.<br>
+* Sorteio de alunos (aleatório e sem repetição).<br>
+ 
+----
+<h2 id="installation">Instalação</h2>
+====
+Para instalação, basta clonar o projeto, navegar a até a pasta, instalar as dependências e por fim executar.
 
-1. Uma página inicial contendo informações pertinentes ao evento, informações como (textos, tabelas de dias e horários, botão para inscrição, *navbar* contento *scrool* para o conteúdo, parceiros).
-2. A página de login para o usuário poder efetuar a entrada no sistema e assim verificar a lista de inscritos.
-3. A página de cadastro de usuários para poder que um usuário cadastre mais usuários para controle do sistema.
-4. A página de lista de alunos para o usuário poder ter acesso aos nomes e numeros de matrículas do aluno, alem de conter um botão de sorteio que é realizado de forma aleatoria sem repetição.
+```bash
+git clone https://github.com/claudiohenriquefds/SECN.git
 
-# Observação
+cd SECN
 
-1. Foi se colocado um bloqueio no *controller* para permitir que o aluno não se inscrevesse depois do prazo.
-2. No *script* se sorteio necessita alterar o número máximo de inscritos.
+composer install
 
-# Site online
-https://secn.herokuapp.com
+php artisan serve
+```
+
+Será retornado um link padrão para acesso ao servidor.
+
+`http://localhost:8000`
+
+Para visualização em um ambiente não local, segue abaixo o link de acesso onde o sistema foi implantado.
+
+[Acessar sistema](https://secn.herokuapp.com)
+
+-----
+<h2 id="authors">Autores e Contribuintes</h2>
+
+**Autores:**
+
+- Cláudio Henrique.
+- Uilson José.
+- Donizeti Silva.
+
+**Contribuintes:**
+
+- Daniele Trindade.
+- Samylle Souza.
