@@ -4,7 +4,6 @@
 
 <p align="justify">O SECN é um sistema de gerênciamento de inscritos e sorteio, utilizado na II Semana da Consciência Negra no Instituto Federal de Educação. Ciência e Tecnologia - Campus Guanambi</p>
 
-![LICENSE](https://img.shields.io/badge/MIT-ffc107?style=flat-square&label=License&Color=white&labelColor=0D1117)
 ![REPO SIZE](https://img.shields.io/github/repo-size/claudiohenriquefds/secn?color=ffc107&label=Repo%20Size&style=flat-square&labelColor=0D1117)
 ![LAST COMMIT](https://img.shields.io/github/last-commit/claudiohenriquefds/secn?color=ffc107&label=Last%20Commit&style=flat-square&labelColor=0D1117)
 ![STATUS](https://img.shields.io/badge/Concluded-ffc107?style=flat-square&label=Status&Color=white&labelColor=0D1117)
