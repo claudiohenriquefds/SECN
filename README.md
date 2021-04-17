@@ -1,4 +1,4 @@
-<p align="center" id="sobre"><img src="./public/img/logo.svg" width="100px"></p>
+<p align="center" id="sobre"><img src="./public/img/logo.png" width="100px"></p>
 
 <h1 align="center">SECN - Semana da Consciência Negra</h1>
 
@@ -18,7 +18,6 @@
 
 ----
 <h2 id="technologies">Tecnologias</h2>
-====
 
 As seguintes ferramentas estão sendo utilizadas na construção do projeto:
 
@@ -30,7 +29,7 @@ As seguintes ferramentas estão sendo utilizadas na construção do projeto:
 
 ----
 <h2 id="functionalities">Funcionalidades</h2>
-====
+
 * Cadastro de alunos.<br>
 * Cadastro de admins.<br>
 * Listagem de alunos.<br>
@@ -38,7 +37,7 @@ As seguintes ferramentas estão sendo utilizadas na construção do projeto:
  
 ----
 <h2 id="installation">Instalação</h2>
-====
+
 Para instalação, basta clonar o projeto, navegar a até a pasta, instalar as dependências e por fim executar.
 
 ```bash
